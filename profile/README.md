@@ -14,7 +14,7 @@ npx robium-ai install
 ```
 
 [![Website](https://img.shields.io/badge/robium.ai-website-4c8bf5)](https://robium.ai)
-[![Discord](https://img.shields.io/badge/Discord-Robium-5865F2?logo=discord&logoColor=white)](https://discord.gg/cyd8xC6W6)
+[![Discord](https://img.shields.io/badge/Discord-Robium-5865F2?logo=discord&logoColor=white)](https://robium.ai/join/discord)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-robium-FFD21E)](https://huggingface.co/robium)
 
 </div>
@@ -36,4 +36,4 @@ users do. Open source, MIT.
 
 **Get involved:** the contribution unit is one skill — small on purpose.
 See [contributing](https://github.com/robium-ai/robium/blob/main/CONTRIBUTING.md), or come
-say hi on [Discord](https://discord.gg/cyd8xC6W6).
+say hi on [Discord](https://robium.ai/join/discord).
