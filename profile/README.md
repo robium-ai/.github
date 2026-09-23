@@ -1,39 +1,42 @@
 <div align="center">
 
-# Robium
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robium-ai/robium/main/assets/brand/robium-lockup-dark.png">
+  <img src="https://raw.githubusercontent.com/robium-ai/robium/main/assets/brand/robium-lockup.png" alt="robium" width="360">
+</picture>
 
-**Robotics skills for AI coding agents.**
+### Physical AI skills for coding agents
 
-Install the robium plugin and your agent knows the robotics stack — which
-simulator, which middleware, which training framework — and how to design,
-build, test, and demo real robotics applications with ROS 2, Gazebo, Nav2,
-LeRobot, Isaac Sim, and more.
+Robium helps Claude Code, Codex, Gemini CLI, and Cursor start from tested
+robotics guidance and working reference applications.
 
 ```bash
-npx robium-ai install
+npx robium-ai setup
 ```
 
 [![Website](https://img.shields.io/badge/robium.ai-website-4c8bf5)](https://robium.ai)
+[![Plugin](https://img.shields.io/badge/Robium-plugin-2563eb)](https://github.com/robium-ai/robium)
+[![Apps](https://img.shields.io/badge/Reference-apps-0f766e)](https://github.com/robium-ai/robium-apps)
 [![Discord](https://img.shields.io/badge/Discord-Robium-5865F2?logo=discord&logoColor=white)](https://robium.ai/join/discord)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-robium-FFD21E)](https://huggingface.co/robium)
 
 </div>
 
-## Repositories
+## Try it
 
-| Repository | What it is |
-| --- | --- |
-| [robium](https://github.com/robium-ai/robium) | **Start here.** The plugin: 24 versioned, battle-tested robotics skills, the robium-architect subagent, and the `npx robium-ai` CLI. |
-| robium-apps | Reference apps — navigation, ML manipulation, and VLA trials — that battle-test every skill before it ships. *Private while being prepared for release.* |
-| robium-website | [robium.ai](https://robium.ai): the landing site and the live-demo orchestrator (drive a robot sim from your browser). *Private.* |
+Restart your coding agent after setup, then ask:
 
-## How robium is built
+> Help me map a simulated environment, localize a mobile robot, and navigate to a goal.
 
-Every skill is authored against live upstream docs, versioned like software
-with a browsable archive of prior versions, and hardened by building real
-applications with it — the reference apps exist to break the skills before
-users do. Open source, MIT.
+Robium will select the compatible navigation example, check Docker, and work
+toward a visible result. You can also
+[explore live demos](https://robium.ai/demos/) before installing.
 
-**Get involved:** the contribution unit is one skill — small on purpose.
-See [contributing](https://github.com/robium-ai/robium/blob/main/CONTRIBUTING.md), or come
-say hi on [Discord](https://robium.ai/join/discord).
+## Explore
+
+- [robium](https://github.com/robium-ai/robium) contains the skills, coding-agent integrations, and `robium-ai` CLI.
+- [robium-apps](https://github.com/robium-ai/robium-apps) contains runnable projects for navigation, robot learning, simulation, and real hardware.
+- [robium.ai](https://robium.ai) has live demos, tutorials, and the complete skill catalog.
+
+Robium is open source under the MIT license. Contributions and questions are
+welcome on [GitHub](https://github.com/robium-ai/robium/blob/main/CONTRIBUTING.md)
+and [Discord](https://robium.ai/join/discord).
