@@ -27,15 +27,19 @@ Restart your coding agent after setup, then ask:
 
 > Help me map a simulated environment, localize a mobile robot, and navigate to a goal.
 
-Robium will select the compatible navigation example, check Docker, and work
-toward a visible result. You can also
-[explore live demos](https://robium.ai/demos/) before installing.
+Robium can start from the
+[robot-navigation reference app](https://github.com/robium-ai/robium-apps/tree/main/robot-navigation),
+check local prerequisites such as Docker, and help your agent work toward a
+visible result. Browse the
+[reference applications](https://github.com/robium-ai/robium-apps) and
+[tutorials](https://robium.ai/blog/) for more projects to try.
 
 ## Explore
 
 - [robium](https://github.com/robium-ai/robium) contains the skills, coding-agent integrations, and `robium-ai` CLI.
 - [robium-apps](https://github.com/robium-ai/robium-apps) contains runnable projects for navigation, robot learning, simulation, and real hardware.
-- [robium.ai](https://robium.ai) has live demos, tutorials, and the complete skill catalog.
+- [robium.ai](https://robium.ai) has setup guidance, tutorials, reference
+  application guides, and the [skill catalog](https://robium.ai/skills/).
 
 Robium is open source under the MIT license. Contributions and questions are
 welcome on [GitHub](https://github.com/robium-ai/robium/blob/main/CONTRIBUTING.md)
