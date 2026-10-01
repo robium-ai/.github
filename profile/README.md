@@ -25,7 +25,7 @@ npx robium-ai setup
 
 Restart your coding agent after setup, then ask:
 
-> Help me map a simulated environment, localize a mobile robot, and navigate to a goal.
+> Map a simulated house with ROS 2, Gazebo, and SLAM, then navigate the robot to a goal.
 
 Robium can start from the
 [robot-navigation reference app](https://github.com/robium-ai/robium-apps/tree/main/robot-navigation),
